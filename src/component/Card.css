@@ -1,0 +1,33 @@
+.card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+  width: 450px;
+  height: 170px; /* Changed height to min-height for better responsiveness */
+  font-weight: normal;
+  font-size: 5px; /* Changed to a specific font size value */
+  font-family: Arial, sans-serif; /* Added a default font-family */
+}
+
+.card h5 {
+  margin-top: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font: weight 10px;;
+}
+
+.card p {
+  margin-bottom: 10px; /* Slightly increased margin-bottom for better spacing */
+  color: grey;
+}
+
+.icon {
+  font-size: 12px; /* Changed font-size to a specific value */
+}
+.ticket-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Vertically align content */
+}

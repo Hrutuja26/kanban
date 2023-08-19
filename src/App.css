@@ -1,0 +1,112 @@
+/* App.css */
+
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+.card h2 {
+  margin-top: 0;
+}
+
+.card p {
+  margin-bottom: 0;
+}
+/* Add this CSS code to your App.css or your preferred CSS file */
+
+/* Style for the nested submenu container */
+.dropdown-group {
+  position: relative;
+}
+
+/* Style for the nested submenu button */
+.dropdown-group > .btn {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 0;
+}
+
+/* Adjust padding for the submenu items */
+.dropdown-submenu .dropdown-item {
+  padding-left: 30px; /* Add appropriate padding */
+}
+
+/* Style for the main dropdown */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Adjust margin for the dropdown items */
+.dropdown .dropdown-menu .dropdown-item {
+  margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .app{
+  display: flex;
+  height: 100vh;
+  width:100%;
+  flex-direction: column;
+}
+.app_navbar{
+  width:100%;
+  padding: 20px 30px;
+  border-bottom: 1px solid rgb(239, 169, 169);
+}
+.app_outer{
+  flex: 1;
+  width: 100%;
+  overflow-x: auto;
+}
+.app_boards{
+  min-width: fit-content;
+  gap: 30px;
+} */
+
+
